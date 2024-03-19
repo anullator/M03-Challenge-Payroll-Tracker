@@ -10,8 +10,8 @@ const collectEmployees = function() {
 
   while (!done) {
     // store user input
-    const fName = prompt("Enter First Name:");
-    const lName = prompt("Enter Last Name:");
+    const fName = capitalCaseWord(prompt("Enter First Name:"));
+    const lName = capitalCaseWord(prompt("Enter Last Name:"));
     let salary = prompt("Enter Salary:", "$0");
     
     // prompts user to re-enter salary until a valid number is entered
@@ -62,6 +62,13 @@ const getRandomEmployee = function(employeesArray) {
 
   // log random winner to console
   console.log(`Congratulations to ${employeesArray[randomIndex].firstName} ${employeesArray[randomIndex].lastName}, our random drawing winner!`);
+}
+
+// Capitalize first letter of a word
+const capitalCaseWord = function(word) {
+  const capFirstLet = word.charAt(0).toUpperCase();
+  const capWord = capFirstLet + word.substring(1).toLowerCase();
+  return capWord;
 }
 
 /*
