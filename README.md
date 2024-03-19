@@ -1,8 +1,8 @@
-# Employee Payroll Tracker - JavaScript
+# M03 Challenge: Payroll Tracker
 
 ## Description
 
-This project is the challenge assignment for Module 03 of the RICE Fullstack Coding Bootcamp. The purpose is to obtain and manipulate employee data.
+This project is the challenge assignment for Module 03 of the RICE Fullstack Coding Bootcamp. The purpose is to obtain and manipulate employee data using JavaScript.
 
 I am to be credited for the below mentioned functions:
 
@@ -32,7 +32,7 @@ The user will be prompted to enter another employee until done. Once cancel is s
 
 ![Image of Sample Employee Roster and Console](./images/screenshot-payroll-tracker.png)
 
-This is the link to the deployed webpage: https://anullator.github.io/payroll-tracker/
+This is the link to the deployed webpage: https://anullator.github.io/M03-Challenge-Payroll-Tracker/
 
 ## Credits
 
