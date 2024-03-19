@@ -12,11 +12,13 @@ const collectEmployees = function() {
     // store user input
     const fName = prompt("Enter First Name:");
     const lName = prompt("Enter Last Name:");
+    let salary = prompt("Enter Salary:", "$0");
     
-    let salary; 
+    // prompts user to re-enter salary until a valid number is entered
     while ( isNaN(salary) ) {
-      salary = parseFloat(prompt("Enter Salary:", "$0"));
+      salary = prompt("Please Re-Enter Salary as a Number:", "$0");
     }
+    salary = parseFloat(salary);
     
     // create object containing employee data from input and append to the array of employees
     employeesArray.push(
