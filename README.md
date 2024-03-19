@@ -30,7 +30,7 @@ Click the "Add Employee" button. The window will prompt the user to enter first 
 
 The user will be prompted to enter another employee until done. Once cancel is selected, a table of the employee data will be displayed on the screen, and messages will be logged to the console.
 
-![Image of Sample Employee Roster and Console](assets/images/screenshot-payroll-tracker.png)
+![Image of Sample Employee Roster and Console](./images/screenshot-payroll-tracker.png)
 
 ## Credits
 
